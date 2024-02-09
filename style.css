@@ -22,7 +22,7 @@ section {
 }
 
 .terceira-secao {
-  background-color: brown;
+  background-color: yellow;
 }
 
 /* Podemos perceber que mesmo colocando o viewport da largura e altura para ocupar 100% da tela, ainda assim é criada uma barra de rolagem lateral - o que não é aceitável para sites PRINCIPALMENTE em um celular -. Isso acontece porque vw e vh sempre adicionam as medidas dessas barras de rolagem no resultado final. para evitar isso utilizaremos o 'overflow x: hidden;' no nosso elemento pai que é o BODY ou na nossa raiz. */
