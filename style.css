@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  /* Aqui a aplicação do overflow para evitar que os elementos estourem nosso layout e não criem uma scroll-bar lateral. */
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.primeira-secao {
+  background-color: aqua;
+}
+
+.segunda-secao {
+  background-color: burlywood;
+}
+
+.terceira-secao {
+  background-color: brown;
+}
+
+/* Podemos perceber que mesmo colocando o viewport da largura e altura para ocupar 100% da tela, ainda assim é criada uma barra de rolagem lateral - o que não é aceitável para sites PRINCIPALMENTE em um celular -. Isso acontece porque vw e vh sempre adicionam as medidas dessas barras de rolagem no resultado final. para evitar isso utilizaremos o 'overflow x: hidden;' no nosso elemento pai que é o BODY ou na nossa raiz. */
